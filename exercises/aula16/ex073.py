@@ -1,0 +1,10 @@
+times = ('Botafogo','Palmeiras','Bragantino','Grêmio','Atlético Mineiro','Flamengo','Atlético-PR','Fluminense','Fortaleza','São Paulo','Cuiabá','Corinthians','Internacional','Bahia','Santos','Cruzeiro','Vasco da gama','Goiás','Coritiba','América-MG')
+
+print(f'(A)Os 5 primeiros colocados do brasileirão são: \n {times[:5]}!')
+print("~"*120)
+print(f'(B)Os últimos 4 colocados do brasileirão são: \n {times[-4:]}!')
+print("~"*120)
+print(f'(C)A lista alfabética dos times é: \n {sorted(times)}!')
+print("~"*120)
+print(f'(D)O Bahia está na posição {times.index("Bahia") + 1}!')
+print("~"*120)

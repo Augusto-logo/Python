@@ -1,0 +1,232 @@
+***Python***
+*Playlist Curso Em Video(CEV)
+*Livros - ?
+----------------------------------------------------------
+SUMÁRIO
+A0  - Introdução.
+A1  - Tipos de Dados/Saída de dados
+A2  - Numbers/Strings
+A3  - Booleans, lists, Tuples
+A4  -
+A5  -
+A6  -
+A7  -
+A8  - 
+A9  - 
+A10 -
+A11 -
+
+
+---------------------------//-----------------------------
+Aula 0 - Introdução
+##Introdução.
+//O Python é usado para: Web development(server-side), software development, matemática e system scripting.
+//O Python pode ser conectado a sistemas de banco de dados, pode trabalhar com arquivos de texto, pode trabalhar com grandes dados e matemática complexa.
+//O python suporta sistema procedural, OOP e sistema funcional.
+
+---------------------------//-----------------------------
+Aula 1 - Tipos de Dados/Saída de dados
+#Tipos primitivos e Saída de Dados
+#Operadores Aritméticos
+//Em Python as variáveis não precisam ser declaradas com um tipo e podem mudar de tipo conforme o programa roda.
+*Casting - forçar o tipo de uma variável; x = str(3), y = int(3).
+*Unpacking - É possível atribuir os valores duma lista/tupla/etc em variáveis iguais ao número de itens da lista; num[1...3] x,y,z=num.
+*Global keyword - É possível criar uma variável dentro duma função e torná-la global; global x | x = 'teste'.
+*Data Types - Tipos de dados duma variável.
+	*Text - str.
+	*Numeric - int, float, complex.
+	*Sequence - list, tuple, range.
+	*Mapping - dict.
+	*Set - set, frozenset.
+	*Boolean - bool.
+	*Binary - bytes, bytearray, memoryview.
+	*None - NoneType.
+
++++COMANDOS+++
+--Native
+*print(f'') - Função que escreve algo na tela.
+*type() - Função que mostra o tipo da variável.
+*isnumeric() - Função que retona se o valor é numérico.
+---------------------------//-----------------------------
+Aula 2 - Numbers/Strings
+#Numbers
+#Random
+#Casting
+#Strings
+*Casting - Atribuição de tipos numa variável. Para converter basta passar o tipo a uma nova variável; x = float(x).
+*Multiline Strings - Ao usar três aspas, é possível criar um bloco que irá seguir a identação do código ao ser printada.
+*Looping Through String - É possível percorrer uma string com for; for x in "banana"||print(x).
+*Check String - É possível verificar se uma letra ou conjunto de letras está presente numa String; "oi" in txt.
+*Slicing - É possível retornar partes de uma string, ao delimitar seu inicio, fim e contador; x[1:5], x[:5], x[-5:-2], x[2:5:2]. 
+	*Check if - Pode ser usado com IF; if "oi" in txt:.
+	*Check if not - Usar o not num if para verificar se não há um texto numa string; if "oi" not in txt:.
+*escape Character - É possível inserir caracteres ilegais numa string, ao utilizar uma '\' + o caractere especial.
+*Formatting Types - É possível modificar o conteúdo da função format() ao utilizar certos tipos de formatação num placeholder;:.2f.
+//Escrever end='' no final dum print, impede a quebra de linha do mesmo e digita oque tiver dentro das aspas.
+
++++COMANDOS+++
+--NATIVE
+*len() - Função que retorna o tamanho duma string.
+*upper() - Função que retorna uma string em caixa alta.
+*lower() - Função que retorna uma string em caixa baixa.
+*casefold() - Função similiar ao lower(), porém mais poderosa.
+*strip() - Função que retorna a string sem espaços antes e depois do seu "conteúdo".
+*replace() - Função que troca um trecho duma string por outro.
+*split() - Função que retorna uma lista com partes de uma string, baseado num parâmetro separador.
+*format() - Função que recebe um parâmetro, formata ele e insere-o num placeholder.
+*capitalize - Função que retorna uma string com o primeiro caracter em caixa alta.
+*center() - Função que retorna uma string centralizada, com seus espaços extras preenchidos por um parâmetro.
+*count()- Função que retorna quantas vezes um parâmetro apareceu numa string.
+*endswith() - Função que retorna True caso o ultimo caractere seja um certo valor.
+*find() - Função que retorna a posição da primeira aparição dum parâmetro ou -1 caso ele não exista.
+*join() - Função que junta os itens duma tupla/lista numa string, com um parâmetro separador.
+
+--RANDOM
+*randint() - Função que retorna um número aleatório.
+*choice() - Função que retorna um elemente aleatório duma lista, tupla.
+*choices() - Função que retorna uma lista com os valores sorteados de outra lista.
+*shuffle() - Função que reorganiza os itens duma LISTA.
+*sample() - Função que retorna uma certa quantidade de itens duma lista.
+*random() - Funão que retorna um número float entre 0 e 1.
+*uniform() - Função que retorna um número float entre 2 parâmetros.
+*triangular() - Função que retorna um número float entre 2 parâmetros, porém com um peso para algum dos parâmetros.
+
+---------------------------//-----------------------------
+Aula 4 - Booleans, lists, Tuples
+#Booleans
+#Operators
+#List
+#Tuple
+*Tuple - myTuple().
+*List - myList[].
+*Negative Index - É possível ler uma lista de trás pra frente com seus indices negativos; list[-5:-1].
+*Evaluate Values/Variables - Praticamente toda expressão se usada numa função booleana retornará TRUE. Porém seus casos vazios retornará FALSE; Um INT = 0, lista vazia, tupla vazia.
+*loop through a list - É possível percorrer uma lista com a estrutura: for x in list.
+*looping shorthand - É possível encurtar o loop num lista: [print(x) for x in list].
+*Tupple change - É possível mudar itens numa tupla ao transformá-la numa lista e então criar uma nova tupla.
+*Append tuples - É possível concatenar duas tuplas e assim, adicionar itens nela.
++++COMANDOS+++
+--Native
+*insert() - Função que insere um item numa lista sem alterar seus indexes.
+*append() - Função que adiciona um item no final duma lista.
+*extend() - Função que insere uma tupla/lista,dict numa lista já existente.
+*remove() - Função que remove a primeira ocorrência dum determinado item.
+*pop() - Função que remove um determinado index duma lista.
+*del - Keyword que remove um determinado index duma lista ou toda a lista.
+*clear() - Função que limpa os itens duma lista.
+*sort() - Função que ordena a lista de maneira alfanumérica e ascendente.
+*reverse() - Função que inverte a ordem duma lista.
+*copy() - Função que retorna a copia de uma lista.
+
+---------------------------//-----------------------------
+CEV - Aula 5 - (09/10/23)
+#Exercícios
+#Condições
+*if - if var.funcition():
+*Condição simplificada - Consiste em simplificar um if; print('texto' if var <= x else'texto2').
+*biblioteca time - Biblioteca para controlar o tempo de execução do programa.
+	*sleep - Faz o computador "dormir" por um momento.
+*end='' - comando que serve para juntar o final de um print com o começo do próximo.
++++COMANDOS+++
+--Native
+*
+
+---------------------------//-----------------------------
+CEV - Aula 6 - (10/10/23)
+#Cores no Terminal
+#ANSI
+*ANSI - Padrão de 'escap sequence' para criar cores num terminal, funciona em várias linguagens.
+	*\033[ m - Estrutura da inserção de cores, entre o [ e o 'm' ficam os códigos de estilização; \o33[0;33;44m
+	*style - É o estilo que será inserido; 0(none), 1(Bold), 4(Underline), 7(Negative).
+	*Text - 30 ao 37,97 representam as cores de texto, respectivamente(preto, vermelho, verde, amarelo, azul, roxo, ciano, cinza, branco).
+	*Back - 40 ao 47,107 representam as cores de fundo, respectivamente(preto, vermelho, verde, amarelo, azul, roxo, ciano, cinza, branco).
+///É possível armazenar os códigos em variáveis e utilizá-los nos placeholders.
++++COMANDOS+++
+--Native
+*
+
+---------------------------//-----------------------------
+CEV - Aula 7 - (10/10/23)
+#Mundo 2
+#Condições Aninhadas
+#Exercícios
+///Pode-se utilizar a variavel no meio de duas comparações; if 5 > var >= 3:.
+///Pode-se utilizar uma comparação de igualdade com mais de duas variaveis;if var1== var2 == var3:.
++++COMANDOS+++
+--Native
+*
+
+---------------------------//-----------------------------
+CEV - Aula 8 - (12/10/23)
+#Estrutura de repetição for
+#Exercícios
+*For - for Var In Range(x,y,z): - Sendo var uma variavel qualquer, In o que será utilizado como repetição, Range o alcance da repeitção e sendo X,Y,Z valores de controle(1,10,2), começa em 1, vai até 10 e pula de 2 em 2.
++++COMANDOS+++
+--Native
+*
+
+---------------------------//-----------------------------
+CEV - Aula 9 - (13/10/23)
+#Estrutura de repetição while
+///Utilizar o while no lugar do for quando não soubr quantas repetições serão necessárias.
+*while (expressão): ||O loop irá se repetir enquanto a expressão for verdadeira.
++++COMANDOS+++
+--Native
+*
+
+---------------------------//-----------------------------
+CEV - Aula 10 - (19/10/23)
+#Interrompendo repetições while
+///Ao criar um loop while sem uma expressão, ele se torna infinito e ao utilizarmos um comando(break) ele para o loop.
++++COMANDOS+++
+--Native
+*
+
+---------------------------//-----------------------------
+CEV - Aula 11 - (03/11/23)
+#Tuplas
+*Uma sequência de itens armazenados numa variável, indentificados pelos seus indices;Tupla[0] mostra o primeiro elemento da tupla.
+///Pode-se manipular as tuplas assim como se manipula as strings.[:2],[0:2:2].
+///As tuplas são IMUTÁVEIS em python.
+///É possível concatenar arrays; C = A+B.
+///É possível saber a posição de um elemento dum array utilizando o comando index; A.index(X).
++++COMANDOS+++
+--Native
+*
+
+----------------------------------------------------------
+COMANDOS*****
+#NATIVOS
+*del - Apaga uma variável da memória.
+*index - Retorna a posição de um elemento num array/list/dictionary.
+*input - Comando que recebe uma string e insere numa variável.
+*for:
+	*for C in Lanche: - Lanche sendo um array de 4 itens, o for irá percorrer os 4 itens, armazenando-os em C.
+	*for X,Y in enumerate(A): - X recebe a posição de A e Y recebe o elemento de A.
+
+*print - Comando que escreve na tela.
+*sorted - Ordena um array em ordem alfabética.
+
+#MATH
+*
+*
+*
+*
+
+#RANDOM
+*
+*
+*
+
+#
+*
+*
+*
+
+
+
+
+
+
+
+

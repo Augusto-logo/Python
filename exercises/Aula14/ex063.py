@@ -1,0 +1,12 @@
+cont = int(input('Digite um número:'))
+num = 1
+ant = 1
+aux = 0
+print('0 -> 1', end='')
+while cont != 2:
+    print(f' -> {num}', end='')
+    # ant = num
+    aux = num
+    num += ant
+    ant = aux
+    cont -= 1
