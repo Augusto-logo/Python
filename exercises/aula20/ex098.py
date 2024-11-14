@@ -32,6 +32,6 @@ def contador(inicio, fim, passo):
             valor -= passo
         
 
-contador(1,10,1)
+contador(1,10,0)
 contador(10,0,2)
 contador(10,100,-8)
