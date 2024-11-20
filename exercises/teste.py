@@ -1,9 +1,6 @@
-def teste(b):
-    a = 8
-    b += 4
-    c = 2
-    print("local A:", a)
-    print("local B:", b)
-a = 5
-teste(a)
-print("global a:",a)
+def notas(*notas, situação=False):
+    media = sum(notas)/len(notas)
+    return print(media)
+
+
+notas(2,4,situação=True)
